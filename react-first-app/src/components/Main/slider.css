@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open Sans:wght@400&display=swap');
+
+
+.slider {
+    background: url('../assets/Slider/main_slider.svg');
+    width: 1320px;
+    height: 497px;
+}
+
+.slide {
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+}
+
+.cheir {
+    margin-bottom: -64px;
+    width: 485px;
+    height: 560px;
+}
+.slide__content {
+    align-self: center;
+    margin-left: 13px;
+}
+
+.content {
+    max-width: 403px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.content__title {
+    color: #363838;
+    font-size: 75.625px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.content__divider {
+    width: 127.188px;
+    height: 0.688px;
+    border: 0.688px solid #979797;
+    background: #6D7278;
+}
+
+.content__text {
+    color: #5A5A5A;
+    font-size: 11px;
+    font-family: 'Open Sans';
+    line-height: 18.563px;
+}
+
+.slider__dots{
+    max-width: 90px;
+    margin: 60px auto 0 auto;
+}
+
+.dots {
+    display: flex;
+    gap:30px;
+}
+
+.dot{
+    border-radius: 50%;
+    width: 5.5px;
+    height: 5.5px;
+    background: #363838;
+}
+
+.dot._active {
+    background: #FFEF35;;
+}
+
+.dot:hover{
+    cursor: pointer;
+}
+
+.slider-header__dots{
+    padding-top: 20px;
+}
