@@ -30,12 +30,6 @@ body {
   font-family: "Open Sans", "Montserrat", sans-serif;
 }
 
-.header {
-  background-color: white;
-  min-height: 120px;
-  padding-bottom: 60px;
-}
-
 .container {
   max-width: 1080px;
   margin: 0 auto;

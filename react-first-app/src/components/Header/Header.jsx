@@ -4,18 +4,19 @@ import icon_menu from "../../assets/Header/icon_menu.svg"
 
 import MenuItem from './MenuItem'
 import links from '../../data'
+import { Link } from "react-router-dom"
 
 function Header() {
     const menuLinksLeft = [
         {
             id: 1,
             title: "About",
-            link: "about"
+            link: "/about"
         },
         {
             id: 2,
             title: "Catalog",
-            link: "catalog"
+            link: "/catalog"
         },
     ]
 
@@ -31,12 +32,12 @@ function Header() {
         {
             id: 4,
             title: "Cart",
-            link: "cart"
+            link: "/cart"
         },
         {
             id: 5,
             title: "Log in",
-            link: "login"
+            link: "/login"
         },
     ]
 
@@ -49,9 +50,9 @@ function Header() {
     ))
 
     const menuItemsCenter = menuLinksCenter.map( (l) => (
-        <a key={l.id} className="menu-item" href={l.link}>
+        <Link key={l.id} className="menu-item" to={l.link}>
             <img src= {logo} alt="Home" />
-        </a>
+        </Link>
     ))
 
     const menuItemsLeft = menuLinksLeft.map( (l) => (

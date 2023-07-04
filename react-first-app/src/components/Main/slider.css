@@ -3,7 +3,7 @@
 
 
 .slider {
-    background: url('../assets/Slider/main_slider.svg');
+    background: url('../../assets/Slider/main_slider.svg');
     width: 1320px;
     height: 497px;
 }
@@ -64,8 +64,8 @@
 
 .dot{
     border-radius: 50%;
-    width: 5.5px;
-    height: 5.5px;
+    width: 7px;
+    height: 7px;
     background: #363838;
 }
 
